@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="menu1">Hello World</string>
+    <string name="search">Search</string>
+    <string name="menu2">Categorie</string>
+    <string name="sotto1">sotto1</string>
+    <string name="sotto2">sotto2</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

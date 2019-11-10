@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MBI</string>
+    <string name="calcola_il_peso_forma">Calcola il peso forma</string>
+    <string name="altezza">Altezza</string>
+    <string name="peso">Peso</string>
+    <string name="kg">Kg</string>
+    <string name="m">m</string>
+    <string name="button">Button</string>
+
+</resources>
