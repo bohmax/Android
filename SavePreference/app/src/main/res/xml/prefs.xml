@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Audio" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="audio_in"
+            android:summary="Abilita la registrazione dell'audio dal microfono incorporato."
+            android:title="Attiva microfono" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="audio_out"
+            android:summary="Abilita la riproduzione dell'audio dall'altoparlante incorporato."
+            android:title="Attiva altoparlante" />
+        <ListPreference
+            android:dialogTitle="Scegli voce"
+            android:entries="@array/voci"
+            android:entryValues="@array/valori"
+            android:key="Voce"
+            android:summary="Puoi scegliere che tipo di voce utilizzare" android:title="Tipo voce" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Video" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="video"
+            android:summaryOff="Abilita il video (occupa lo schermo)"
+            android:summaryOn="Disabilita il video (solo audio)"
+            android:title="Abilita il video" />
+        <EditTextPreference
+            android:defaultValue="Roboto"
+            android:key="nome_pg"
+            android:summary="Puoi scegliere il nome da dare al tuo personaggio"
+            android:title="Nome personaggio" />
+    </PreferenceCategory>
+</PreferenceScreen>

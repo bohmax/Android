@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="voci">
+        <item>"voce"</item>
+        <item>"voce 2"</item>
+        <item>"voce 3"</item>
+    </array>
+    <array name="valori"> //bisogna dare a tutti un valore diverso sennò il sistema non riesce a distinguerli
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </array>
+</resources>
